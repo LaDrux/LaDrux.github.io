@@ -1,5 +1,9 @@
 [
 null,
-{"id":1,"expanded":true,"name":"outside house","order":1,"parentId":0,"scrollX":819,"scrollY":461},
-{"id":2,"expanded":false,"name":"inside","order":2,"parentId":1,"scrollX":832,"scrollY":640}
+{"id":1,"expanded":true,"name":"outside house","order":1,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":2,"expanded":false,"name":"inside","order":2,"parentId":1,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":3,"expanded":true,"name":"bolder place yeah","order":3,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":4,"expanded":true,"name":"bolder dungeon","order":4,"parentId":3,"scrollX":1318.6666666666667,"scrollY":1718.6666666666667},
+{"id":5,"expanded":false,"name":"boss 1","order":5,"parentId":4,"scrollX":832,"scrollY":640},
+{"id":6,"expanded":false,"name":"debug","order":6,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666}
 ]
