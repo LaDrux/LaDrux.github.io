@@ -1,0 +1,30 @@
+body {
+  font-family: Comic Sans MS, Impact;
+  background-image: linear-gradient(#43e8b7, #001eff);
+}
+h1 {
+  font-family: Impact, Arial;
+}
+#content {
+width: 500px;
+text-align: center;
+margin: auto;
+}
+
+.segment {
+  border: 10px;
+  border-style: outset;
+  border-color: teal;
+  padding: 5px;
+  /* border-width: 1px;
+  border-color: #A00000;
+  border-style: solid; */
+}
+.segment img {
+  max-width: 200px;
+  float: right;
+  margin: 5px;
+}
+.segment .centerimg {
+  float: none;
+}
