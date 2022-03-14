@@ -1,9 +1,17 @@
 [
 null,
-{"id":1,"expanded":true,"name":"outside house","order":1,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
-{"id":2,"expanded":false,"name":"inside","order":2,"parentId":1,"scrollX":1092,"scrollY":614.6666666666666},
-{"id":3,"expanded":true,"name":"bolder place yeah","order":3,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
-{"id":4,"expanded":true,"name":"bolder dungeon","order":4,"parentId":3,"scrollX":1318.6666666666667,"scrollY":1718.6666666666667},
-{"id":5,"expanded":false,"name":"boss 1","order":5,"parentId":4,"scrollX":832,"scrollY":640},
-{"id":6,"expanded":false,"name":"debug","order":6,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666}
+{"id":1,"expanded":false,"name":"outside house","order":1,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":2,"expanded":false,"name":"inside","order":2,"parentId":1,"scrollX":1404,"scrollY":790.2857142857142},
+{"id":3,"expanded":false,"name":"bolder place yeah","order":4,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":4,"expanded":false,"name":"bolder dungeon","order":5,"parentId":3,"scrollX":720.8888888888889,"scrollY":402.6666666666667},
+{"id":5,"expanded":false,"name":"boss 1","order":6,"parentId":4,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":6,"expanded":false,"name":"debug","order":7,"parentId":0,"scrollX":832,"scrollY":640},
+{"id":7,"expanded":false,"name":"idk how to spell it","order":3,"parentId":1,"scrollX":832,"scrollY":640},
+{"id":8,"expanded":false,"name":"forest pass","order":8,"parentId":0,"scrollX":1318,"scrollY":1510},
+{"id":9,"expanded":true,"name":"atown","order":9,"parentId":0,"scrollX":1082,"scrollY":666},
+{"id":10,"expanded":false,"name":"init","order":14,"parentId":0,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":11,"expanded":false,"name":"place with the uhhhh jdklfj;a","order":10,"parentId":9,"scrollX":832,"scrollY":640},
+{"id":12,"expanded":false,"name":"inn","order":11,"parentId":9,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":13,"expanded":false,"name":"weapons","order":12,"parentId":9,"scrollX":1092,"scrollY":614.6666666666666},
+{"id":14,"expanded":false,"name":"look at you","order":13,"parentId":9,"scrollX":832,"scrollY":640}
 ]

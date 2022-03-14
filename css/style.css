@@ -12,6 +12,7 @@ margin: auto;
 }
 
 .segment {
+  margin-bottom: 10px;
   border: 10px;
   border-style: outset;
   border-color: teal;
@@ -20,11 +21,16 @@ margin: auto;
   border-color: #A00000;
   border-style: solid; */
 }
+
 .segment img {
   max-width: 200px;
-  float: right;
-  margin: 5px;
 }
-.segment .centerimg {
-  float: none;
+.segment .leftimg {
+  margin-right: 5px;
+    float: left;
+}
+
+.segment .rightimg {
+  margin-left: 5px;
+    float: right;
 }

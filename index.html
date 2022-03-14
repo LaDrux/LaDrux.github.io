@@ -2,6 +2,12 @@
  <head>
    <title>my webpage</title>
    <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script type="text/javascript">
+     var randomNumber = Math.floor(Math.random() * 3);
+     var phrases = [`hello`, `hi`, `never say that again`];
+     console.log(phrases[randomNumber]);
+   </script>
    </head>
    <body>
 <div id="content">
@@ -10,12 +16,16 @@
   </div>
   <img src="img/house.jpg" alt="why isnt this working" width="1000" height="1000">
   <div class="segment">
-    <a href="game.html">play the game</a>
-    <img src="img/fombo.jpeg" alt="why isnt this working">
+    <img src="img/fombo.jpeg" alt="why isnt this working" class="leftimg">
 
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, elit pretium pellentesque scelerisque, tortor ex semper eros, vitae accumsan quam neque vulputate magna. Praesent orci leo, blandit eget fermentum nec, porttitor sit amet libero. Vivamus molestie at dolor elementum malesuada. Nulla malesuada enim commodo, rutrum diam feugiat, convallis ipsum. Nullam ut posuere dolor. Nulla in bibendum orci. Aliquam aliquet, felis at ornare dignissim, mi diam accumsan elit, eget sollicitudin diam nisi eu lectus. Curabitur imperdiet semper leo, nec vehicula sapien hendrerit sed. Nulla nisi nulla, volutpat non justo at, ornare sodales ligula.</p>
-<img src="img/fombo.jpeg" alt="why isnt this working" class="centerimg">
+<img src="img/fombo.jpeg" alt="why isnt this working" class="rightimg">
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, elit pretium pellentesque scelerisque, tortor ex semper eros, vitae accumsan quam neque vulputate magna. Praesent orci leo, blandit eget fermentum nec, porttitor sit amet libero. Vivamus molestie at dolor elementum malesuada. Nulla malesuada enim commodo, rutrum diam feugiat, convallis ipsum. Nullam ut posuere dolor. Nulla in bibendum orci. Aliquam aliquet, felis at ornare dignissim, mi diam accumsan elit, eget sollicitudin diam nisi eu lectus. Curabitur imperdiet semper leo, nec vehicula sapien hendrerit sed. Nulla nisi nulla, volutpat non justo at, ornare sodales ligula.</p>
+  </div>
+  <div class="segment">
+<h3>project1 (you think I have a name for this thing?)</h3>
+    <a href="game.html">play the game</a>
+
   </div>
   </div>
   </body>
