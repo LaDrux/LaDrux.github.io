@@ -1,32 +1,86 @@
-<html>
- <head>
-   <title>my webpage</title>
-   <link rel="stylesheet" href="css/style.css">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <script type="text/javascript">
-     var randomNumber = Math.floor(Math.random() * 3);
-     var phrases = [`hello`, `hi`, `never say that again`];
-     console.log(phrases[randomNumber]);
-   </script>
-   </head>
-   <body>
-<div id="content">
-  <div id="headerBox">
-<h1>my webpage (its funny)</h1>
-  </div>
-  <img src="img/house.jpg" alt="why isnt this working" width="1000" height="1000">
-  <div class="segment">
-    <img src="img/fombo.jpeg" alt="why isnt this working" class="leftimg">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>funny site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+    function changeScrollImage() {
+    var scrollImg = document.getElementById('funnyscrollingimage');
+    scrollImg.src = 'img/Untitled.png';
+    }
+  </script>
+  </head>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, elit pretium pellentesque scelerisque, tortor ex semper eros, vitae accumsan quam neque vulputate magna. Praesent orci leo, blandit eget fermentum nec, porttitor sit amet libero. Vivamus molestie at dolor elementum malesuada. Nulla malesuada enim commodo, rutrum diam feugiat, convallis ipsum. Nullam ut posuere dolor. Nulla in bibendum orci. Aliquam aliquet, felis at ornare dignissim, mi diam accumsan elit, eget sollicitudin diam nisi eu lectus. Curabitur imperdiet semper leo, nec vehicula sapien hendrerit sed. Nulla nisi nulla, volutpat non justo at, ornare sodales ligula.</p>
-<img src="img/fombo.jpeg" alt="why isnt this working" class="rightimg">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mattis, elit pretium pellentesque scelerisque, tortor ex semper eros, vitae accumsan quam neque vulputate magna. Praesent orci leo, blandit eget fermentum nec, porttitor sit amet libero. Vivamus molestie at dolor elementum malesuada. Nulla malesuada enim commodo, rutrum diam feugiat, convallis ipsum. Nullam ut posuere dolor. Nulla in bibendum orci. Aliquam aliquet, felis at ornare dignissim, mi diam accumsan elit, eget sollicitudin diam nisi eu lectus. Curabitur imperdiet semper leo, nec vehicula sapien hendrerit sed. Nulla nisi nulla, volutpat non justo at, ornare sodales ligula.</p>
+  <body>
+    <div class="TOPGAMETHINGORSOMETHING">
+      MENU WITH THINGS ON IT
+      <div id="menuitem">
+        <a href="js/index.html">play jsfighter here (I totally made it trust me)</a>
+      </div>
+      <div id="menuitem">
+        <a href="rpg/index.html">play whatever thing I did in rpg maker</a>
+      </div>
+      <div id="menuitem">
+          <a onclick="changeScrollImage()">click here for something to change</a>
+      </div>
+    </div>
   </div>
-  <div class="segment">
-<h3>project1 (you think I have a name for this thing?)</h3>
-    <a href="game.html">play the game</a>
+<div id="stuff">
+<div id="title">
+  <h1>MY WEBPAGE</h1>
+  <h2>(its funny)</h2>
+</div>
 
+<div id="scrollimg">
+<marquee direction="left" scrollamount="10">
+  <img src="img/917556365541650514.png" alt="uhhh" width="400" height="100" id="funnyscrollingimage">
+</marquee>
+</div>
+
+<div id="imstuff">
+  <p>Now its time for me to give YOU a list of stuff to do</p>
+<p>and instead of wasting your time with filler I will give you recommendations on stuff I guess</p>
+</div>
+
+<div class="rwhole">
+  <div id="rgame">
+<img src="img/stretch (3).png" alt="uhhh" height="150px" width="300px">
+games you should play
+<p><a href="https://srb2.org/">srb2 is a very fun game and you should play it (I will be suprised if the link isnt blocked)</a></p>
+<p>binding of isaac and nuclear throne are cool roguelikes</p>
+<p>if you ever are going to play terraria do not ever play the mods and get trapped like I did</p>
+<p>snap the sentinal is pretty fun</p>
+<p>play touhou if you wish to waste hours of your life</p>
   </div>
+  <div id="rshows">
+    shows you should watch
+<img src="img/874324426269814825.png" alt="uhhh" height="150px" width="150px">
+<p>I dont watch shows much so I have like nothing to recommend</p>
+<p>I rarely have the attention span to watch anything</p>
+<p>uhhhhhh watch madoka I guess?</p>
+<p>or that new sonic movie?</p>
+<p>idk just look at that funny bird in the box</p>
   </div>
+  <div id="rplace">
+<img src="img/house.jpg" alt="uhhh" height="150px" width="300px">
+places you should go
+<p>you could go outside for once :destroyed:</p>
+<p>you could go minigolfing</p>
+<p>washington dc has some cool stuff</p>
+<p>florida is cool if you like insane people</p>
+<p>heard canada is also cool I guess</p>
+  </div>
+  <div id="rtips" class="imgright">
+    pro tips
+    <img src="img/tail.png" alt="uhhh" height="150px" width="275px">
+    <p>never live in a city, worst mistake of my life</p>
+    <p>public pools are virus heaven and I regret ever going to one</p>
+    <p>gamestop now sucks and its not worth going there anymore</p>
+    <p>do not ever get into fanbases because they all are awful</p>
+    <p>never be like me and do a project in this format because GOD thinking of what to put here took longer then the actual code</p>
+  </div>
+</div>
   </body>
 </html>
